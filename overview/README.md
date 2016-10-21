@@ -57,10 +57,14 @@ Simple experiment that changes the "start" button from orange to pink.
 
 ###### Hypothesis
 changing the "start" button from orange to pink will increase how many students explore the website's online courses (which is moving from the 1st stage to the 2nd stage of the funnel).
-
-###### Metric Choices
-* Number of clicks (not feasible): control group and experiment group may have a different population, so using number of clicks is not a fair match.
-
-* Number of clicks/number of page views (also not suitable): which is also defined as click-through rate, appears to be a suitable metric. However, if there are two unique users, one does not click, and the other clicked multiple (e.g., 5) times due to impatience, then the rate = 5/2 = 2.5, whereas the actual percentage of user clicked was only 50%.
-
-* To be more accurate, click-through probablity which is defined as # of unique visitors who clicked / # of unique visitors who visited home page should be used as our metric.
+(
+ ###### Metric Choices
+ * Number of clicks (not feasible): control group and experiment group may have a different population, so using number of clicks is not a fair match.
+ 
+ * Number of clicks/number of page views (also not suitable): which is also defined as *`click-through rate`*, appears to be a suitable metric. However, if there are two unique users, one does not click, and the other clicked multiple (e.g., 5) times due to impatience, then the rate = 5/2 = 2.5, whereas the actual percentage of user clicked was only 50%.
+ 
+ * To be more accurate, *`click-through probablity`* which is defined as # of unique visitors who clicked / # of unique visitors who visited home page should be used as our metric.
+ 
+ 
+ ###### Updated Hypothesis
+ changing the "start" button from orange to pink will increase the `click-through probability`, that is how likely a home page visitor is to explore the site by clicking the button.
